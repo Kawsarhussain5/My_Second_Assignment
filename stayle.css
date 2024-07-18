@@ -62,7 +62,7 @@ color: rgb(230, 83, 60);
 font-size: 36px;
 font-weight: 800;
 }
-
+/*Change Your Habits start*/
 #habits{
     border: solid red 2px;
     background-color: black;
@@ -96,3 +96,38 @@ text-align: center;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+/*Change Your Habits end/
+
+/*Run an Extra Mile Easily start*/
+#run{
+    border: solid red 2px;
+    background-color: black;
+    margin-top: 100px;
+   
+}
+#run .run-comteimar{
+max-width: 1060px;
+height: 371px;
+border: solid red 2px;
+background: rgb(34, 34, 34);
+border-radius: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+#run .run-box-1{
+max-width: 443px;
+height: 290px
+}
+#run .run-sub{
+    margin-bottom: 30px;
+}
+#run .run-box-2 img{
+width: 366px;
+height: 312px;
+border: solid red 2px;
+border-radius: 18px;
+}
+
+/*Run an Extra Mile Easily end*/
