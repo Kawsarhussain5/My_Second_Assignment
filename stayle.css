@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    /* background-color: black; */
+    font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* sared-stayle */
 h1{
-    color: red;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+   
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.primari-btn{
+width: 224px;
+height: 54px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+border: none;
+}
+.secondery-btn{
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid rgb(255, 255, 255);
+
+  
+}
+.nav-logo{
+    width: 132px;
+height: 43px;
+color: rgb(230, 83, 60);
+font-size: 36px;
+font-weight: 800;
+}
+
+#habits{
+    border: solid red 2px;
+    background-color: black;
+}
+#habits  .habits-conteinar{
+max-width: 1044px;
+height: 452px;
+margin: 0 auto;
+border: solid red 2px;
+}
+#habits .habits-title{
+    text-align: center;
+}
+
+#habits .habits-sub{
+    text-align: center;
+}
+#habits .habits-model{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+
+}
+#habits .habits-box{
+text-align: center;  
+}
+
+#habits img{
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
