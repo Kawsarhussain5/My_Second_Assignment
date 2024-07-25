@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body{
-    background-color: black; 
+    background-color: black;
     font-family: "Inter", sans-serif;
 }
 *{
@@ -10,7 +10,7 @@ body{
 /* sared-stayle */
 h1{
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
@@ -27,7 +27,7 @@ h5{
     line-height: 120%;
    
 }
-p ,th ,td{
+p ,th ,td ,ul ,li{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
@@ -51,52 +51,141 @@ border: none;
     font-size: 18px;
     font-weight: 600;
     border-radius: 42px;
-    border: 1px solid rgb(255, 255, 255);
-
-  
-}
-.nav-logo{
-    width: 132px;
-height: 43px;
-color: rgb(230, 83, 60);
-font-size: 36px;
-font-weight: 800;
-}
-/*Change Your Habits start*/
-#habits{
-    border: solid red 2px;
     background-color: black;
+    border: 1px solid rgb(255, 255, 255);
 }
-#habits  .habits-conteinar{
-max-width: 1044px;
-height: 452px;
-margin: 0 auto;
+
+/*header section start*/
+nav {
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 57px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    border: solid white 1px;
+    border-radius: 39px;
+
+}
+nav ul li{
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.logo-taxt{
+font-size: 2.2rem;
+font-weight: 800;
+color: rgb(230, 83, 60);
+}
+.btn-manu{
+    padding: 10px 20px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+
+}
+.banner-conteinar{
+    max-width: 1060px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 150px;
+    margin-top: 50px;
+    
+   
+}
+.banner-headding{
+    font-size: 4.8rem;
+}
+.banner-taxt{
+    max-width: 530px;
+    height: 440px;
+
+}
+.banner-conteinar button{
+    margin-top: 20px;
+}
+.banner-btn{
+   
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.video{
+width: 193px;
+height: 98px;
+text-align: center;
 border: solid red 2px;
+background-color: rgba(48, 48, 48, 0.54);
+border-radius: 15px;
+backdrop-filter: blur(20px);
+margin-left: 240px;
+margin-top: -450px;
+
 }
-#habits .habits-title{
+
+.tutorial{
+ width: 193px;
+height: 98px;
+text-align:center;
+border: solid red 2px;
+background-color: rgba(48, 48, 48, 0.54);
+border-radius: 15px;
+backdrop-filter: blur(20px);
+margin-left: -100px;
+margin-top: 180px;
+
+}
+
+
+/*header section end*/
+
+/*Change Your Habits start*/
+.habits-conteinar{
+   
+}
+.habits-title{
+max-width: 671px;
+height: 120px;
+border: solid red 2px;
+text-align: center;
+margin: 0 auto;
+margin-top: 150px;
+
+}
+.habits-model{
+    max-width: 1060px;
+    display: flex;
+
+    border: solid red 2px;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 100px;
+
+}
+.habits-box{
     text-align: center;
 }
 
-#habits .habits-sub{
-    text-align: center;
-}
-#habits .habits-model{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 30px;
-
-}
-#habits .habits-box{
-text-align: center;  
-}
-
-#habits img{
+.habits-box img{
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+
 /*Change Your Habits end/
+
 
 /*Run an Extra Mile Easily start*/
 #run{
@@ -107,7 +196,7 @@ text-align: center;
 }
 #run .run-comteimar{
 max-width: 1060px;
-height: 371px;
+
 border: solid red 2px;
 background: rgb(34, 34, 34);
 border-radius: 18px;
@@ -118,14 +207,15 @@ margin: 0 auto;
 }
 #run .run-box-1{
 max-width: 443px;
-height: 290px
+margin-top: 30px;
+margin-bottom: 30px;
 }
 #run .run-sub{
     margin-bottom: 30px;
 }
 #run .run-box-2 img{
 width: 366px;
-height: 312px;
+height: 320px;
 border: solid red 2px;
 border-radius: 18px;
 }
@@ -133,55 +223,44 @@ border-radius: 18px;
 /*Run an Extra Mile Easily end*/
 
 /*BMI Calculator start*/
-#bmi{
-   
- 
-}
 #bmi .content{
+    width: 671px;
     text-align: left;
-    margin-left: 384px;
+    margin: 0 auto;
     margin-top: 88px;
     margin-bottom: 88px;
 }
 #bmi .bg-model{
-    width: 1440px;
-    height: 487px;
     background-color: rgb(34, 34, 34);
     margin-bottom: 88px;
+ 
 }
 #bmi .model-box{
-    width: 1000px;
-    height: 487px;
+    max-width: 1060px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
     margin: 0 auto;
-
-}
-#bmi .box-1{
-
+    border: solid red 2px;
 }
 #bmi .box-1 .box-1-content{
     margin-bottom: 52px;
 }
-
 #bmi .box-2{
-width: 577px;
-height: 386px;
-border: solid red 2px;
-}
+    max-width: 577px;
+    height: 386px;
+    border: solid red 2px;
+    }
+    #bmi .box-2 .box-2-content{
+        margin-bottom: 20px;
+    }
+    #bmi .box-2 .box-2-content-2{
+        margin-bottom: 30px;
+    }
+    
 
-#bmi .box-2 .box-2-content{
-    margin-bottom: 20px;
-}
-#bmi .box-2 .box-2-content-2{
-    margin-bottom: 30px;
-}
-
-
-/*BMI Calculator end*/
-
+/*BMI Calculator start*/
 
 
 
@@ -189,33 +268,83 @@ border: solid red 2px;
 
 
 
-/*main-footer start*/
-#main-footer{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer section start*/
+
+
+#footer{
     background-color: rgba(255, 255, 255, 0.1);
+  
+  
 }
-.footer-comteinar{
-width: 1059px;
-height: 280px;
+#footer .conteiner{
+max-width: 1440;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 40px;
+gap: 50px;
 margin: 0 auto;
-margin-top: 108px;
+margin-top: 70px;
+}
+#footer .box1 {
+    width: 300px;
+    margin-top: 70px;
+}
+
+#footer .box1 h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color:rgb(230, 83, 60) ;
+}
+#footer .box1 p{
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 24px;
+}
+#footer .box2 {
+    width: 300px;
+    margin-top: 70px;
 
 }
-.box-1{
-    width: 443px;
-    height: 249px;
+#footer .box3 {
+    width: 300px;
+    margin-top: 70px;
 }
-hr{
-    width:1059px ;
+#footer hr{
+    max-width: 80%;
     margin: 0 auto;
+    margin-top: 80px;
 }
-.right{
+#footer .copyright{
     text-align: center;
-   
-
+    margin-top: 20px;
 }
 
-/*main-footer end*/

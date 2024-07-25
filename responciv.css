@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px){
+
+    nav 
+    ,.banner-conteinar
+    ,#habits .habits-model
+    ,.habits-model
+    ,#run .run-comteimar
+    ,#bmi .model-box
+    ,#footer .conteiner{
+        flex-direction: column;
+    }
+   
+    
+}
