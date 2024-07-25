@@ -6,7 +6,8 @@
     ,.habits-model
     ,#run .run-comteimar
     ,#bmi .model-box
-    ,#footer .conteiner{
+    ,#footer .conteiner
+    ,.diet-box1{
         flex-direction: column;
     }
    
