@@ -11,5 +11,7 @@
         flex-direction: column;
     }
    
-    
+    .team-model{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
