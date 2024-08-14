@@ -1,8 +1,19 @@
 @media screen and (max-width: 576px){
 
-    /* nav 
-    ,.banner-conteinar */
-
+    nav{
+        justify-content: space-around;
+        gap: 250px;
+    }
+     nav ul{
+        display: none;
+     }
+     nav .bads{
+        display: block;
+        color: white;
+     }
+     nav .bads i{
+      font-size: 40px;
+     }
     .banner-conteinar{
         flex-direction: column;
         margin-bottom: 250px;
@@ -14,6 +25,13 @@
     .tutorial{
     margin-left: 15px;
     margin-top: 125px;
+    }
+    .tutorial .boll i{
+        display: block;
+        font-size: 35px;
+        color: white;
+        margin-top: 3px;
+        margin-left: 3px;
     }
     .habits-model{
         flex-direction: column;
