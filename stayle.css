@@ -221,8 +221,8 @@ max-width: 1060px;
 background: rgb(34, 34, 34);
 border-radius: 18px;
 display: flex;
-justify-content: center;
-gap: 200px;
+justify-content: space-around;
+
 align-items: center;
 margin: 0 auto;
 padding: 30px;
