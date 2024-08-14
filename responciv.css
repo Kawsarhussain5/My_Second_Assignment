@@ -1,17 +1,69 @@
 @media screen and (max-width: 576px){
 
-    nav 
-    ,.banner-conteinar
-    ,#habits .habits-model
-    ,.habits-model
-    ,#run .run-comteimar
-    ,#bmi .model-box
-    ,#footer .conteiner
-    ,.diet-box1{
+    /* nav 
+    ,.banner-conteinar */
+
+    .banner-conteinar{
+        flex-direction: column;
+        margin-bottom: 250px;
+    }
+    .video{
+    margin-left: 240px;
+    margin-top: -550px;
+    }
+    .tutorial{
+    margin-left: 15px;
+    margin-top: 125px;
+    }
+    .habits-model{
         flex-direction: column;
     }
-   
+    #run .run-comteimar{
+        flex-direction: column;
+    }
+    #run .run-box-2 img{
+        width: 450px;
+    }
+    #bmi .model-box{
+        flex-direction: column;
+    }
+    #bmi .content{
+        margin-left: 20px;
+    }
+    .diet-box1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .diet-box1 img{
+        max-width: 500px;
+        border-radius: 30px;
+        border: solid red 2px;
+    }
+    .diet-box-content{
+        text-align: center;
+    }
     .team-model{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .team-model{
+        max-width: 450px;
+        border: solid aqua 2px;
+    }
+    .team-box{
+        margin: 0 auto;
+    }
+    .team-box img{
+        width: 420px;
+        height: 300px;
+        border-radius: 18px;
+        background-color: rgba(0, 0, 0, 0.2);
+  
+    }
+    #footer .conteiner{
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
+        margin-left: 25px;
+
     }
 }

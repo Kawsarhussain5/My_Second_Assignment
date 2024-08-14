@@ -2,6 +2,7 @@
 body{
     background-color: black;
     font-family: "Inter", sans-serif;
+  
 }
 *{
     margin: 0;
@@ -136,9 +137,12 @@ margin-top: -450px;
 }
 
 .tutorial{
- width: 193px;
-height: 98px;
+width: 193px;
+display: flex;
+justify-content: center;
+align-items: center;
 text-align:center;
+gap: 20px;
 border: solid red 2px;
 background-color: rgba(48, 48, 48, 0.54);
 border-radius: 15px;
@@ -224,7 +228,7 @@ border-radius: 18px;
 
 /*BMI Calculator start*/
 #bmi .content{
-    width: 671px;
+    max-width: 671px;
     text-align: left;
     margin: 0 auto;
     margin-top: 88px;
@@ -374,28 +378,6 @@ border-radius: 18px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer section start*/
 
 
@@ -418,7 +400,7 @@ margin-top: 70px;
     margin-top: 70px;
 }
 
-#footer .box1 h1{
+#footer .box1 i{
     font-size: 4.5rem;
     font-weight: 800;
     color:rgb(230, 83, 60) ;
