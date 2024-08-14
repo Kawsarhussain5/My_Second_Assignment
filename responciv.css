@@ -55,7 +55,6 @@
     .diet-box1 img{
         max-width: 500px;
         border-radius: 30px;
-        border: solid red 2px;
     }
     .diet-box-content{
         text-align: center;
@@ -65,7 +64,7 @@
     }
     .team-model{
         max-width: 450px;
-        border: solid aqua 2px;
+       
     }
     .team-box{
         margin: 0 auto;

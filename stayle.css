@@ -218,14 +218,14 @@ margin-top: 150px;
 }
 #run .run-comteimar{
 max-width: 1060px;
-
-
 background: rgb(34, 34, 34);
 border-radius: 18px;
 display: flex;
 justify-content: center;
+gap: 200px;
 align-items: center;
 margin: 0 auto;
+padding: 30px;
 }
 #run .run-box-1{
 max-width: 443px;
@@ -278,6 +278,9 @@ border-radius: 18px;
     }
     #bmi .box-2 .box-2-content-2{
         margin-bottom: 30px;
+    }
+    .box-2-content-2{
+        
     }
     input ,select{
     width: 250px;
